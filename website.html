@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ticket Booking</h1>
+    </header>
+
+    <section class="booking-form">
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event" required>
+                <option value="concert">Concert</option>
+                <option value="movie">Movie</option>
+                <option value="sports">Sports Event</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <input type="submit" value="Book Now">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ticket Booking. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
